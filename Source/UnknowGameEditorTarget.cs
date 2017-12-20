@@ -3,9 +3,9 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class BrickGameEditorTarget : TargetRules
+public class UnknowGameEditorTarget : TargetRules
 {
-	public BrickGameEditorTarget(TargetInfo Target)
+	public UnknowGameEditorTarget(TargetInfo Target)
 	{
 		Type = TargetType.Editor;
 	}
@@ -20,6 +20,6 @@ public class BrickGameEditorTarget : TargetRules
 		ref List<string> OutExtraModuleNames
 		)
 	{
-		OutExtraModuleNames.Add("BrickGame");
+		OutExtraModuleNames.Add("UnknowGame");
 	}
 }
