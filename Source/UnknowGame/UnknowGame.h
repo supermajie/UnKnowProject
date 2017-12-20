@@ -1,7 +1,7 @@
 // Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
 
-#ifndef __BRICKGAME_H__
-#define __BRICKGAME_H__
+#ifndef __UNKNOWGAME_H__
+#define __UNKNOWGAME_H__
 
 #include "Engine.h"
 
