@@ -6,6 +6,6 @@ public class UnknowGame : ModuleRules
 {
 	public UnknowGame(TargetInfo Target)
 	{
-		Public DependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 	}
 }
